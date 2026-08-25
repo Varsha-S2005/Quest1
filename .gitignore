@@ -1,1 +1,5 @@
 downloads/*.mp4
+__pycache__/
+*.pyc
+
+extracted_frames/

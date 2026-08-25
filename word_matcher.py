@@ -1,182 +1,113 @@
-
 import json
 import re
+from pathlib import Path
 
 
 class WordMatcher:
-    """
-    Finds an exact sequential occurrence of a query
-    inside a word-level Whisper transcript.
-
-    Example:
-
-        Query:
-        "My mind rebels at stagnation"
-
-        Transcript words:
-        ... my -> mind -> rebels -> at -> stagnation ...
-
-    The matcher makes sure the words occur in this
-    exact order.
-    """
 
     def __init__(self, transcript_path):
-        """
-        Load the word-level transcript JSON.
+        self.transcript_path = Path(transcript_path)
 
-        The JSON is expected to have this structure:
-
-        {
-            "words": [
-                {
-                    "id": 0,
-                    "word": "I",
-                    "start": 0.0,
-                    "end": 1.74
-                },
-                ...
-            ]
-        }
-        """
-
-        self.transcript_path = transcript_path
-
-        # Open the JSON file.
-        with open(transcript_path, "r", encoding="utf-8") as f:
+        with open(self.transcript_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        # Extract the actual word list.
         self.words = data["words"]
 
-        print(f"Loaded {len(self.words)} word timestamps.")
-
-    def normalize(self, text):
+    @staticmethod
+    def normalize(word):
         """
-        Normalize a word before comparing it.
+        Normalize a word so that small transcription/query
+        formatting differences do not prevent matching.
 
-        Example:
-
-            "MY"       -> "my"
-            "stagnation!" -> "stagnation"
-            "rebels,"  -> "rebels"
-
-        This allows punctuation and capitalization
-        differences without changing the actual words.
+        Examples:
+            "My"       -> "my"
+            "stagnation." -> "stagnation"
+            "STAGNATION!" -> "stagnation"
         """
 
-        text = text.lower()
+        word = word.lower().strip()
 
-        # Keep only letters and numbers.
-        text = re.sub(r"[^a-z0-9']", "", text)
+        # Remove punctuation from beginning/end
+        word = re.sub(r"^[^\w]+|[^\w]+$", "", word)
 
-        return text
+        return word
 
     def find_first_occurrence(self, query):
         """
-        Find the FIRST complete sequential occurrence
-        of the query.
+        Find the first complete sequential occurrence of the query.
 
         Example:
 
             Query:
-            "My mind rebels at stagnation"
+            My mind rebels at stagnation
 
-        We are NOT simply searching for the first "my".
-
-        Instead we check:
-
-            my
-            ↓
+            Transcript:
+            ...
+            My
             mind
-            ↓
             rebels
-            ↓
             at
-            ↓
             stagnation
-
-        consecutively in the transcript.
+            ...
 
         Returns:
-            Dictionary containing:
-                query
-                start_time
-                end_time
-                matched_words
+            {
+                "query": ...,
+                "matched_text": ...,
+                "start": ...,
+                "end": ...,
+                "start_word": ...,
+                "end_word": ...,
+                "word_count": ...
+            }
 
-        Returns None if the complete phrase isn't found.
+        Returns None if no complete occurrence is found.
         """
 
-        # Normalize the query.
         query_words = [
             self.normalize(word)
             for word in query.split()
         ]
 
-        # Remove empty values.
-        query_words = [
-            word for word in query_words
-            if word
-        ]
+        query_words = [word for word in query_words if word]
 
         if not query_words:
             return None
 
-        # Normalize every transcript word.
-        transcript_words = [
+        normalized_transcript = [
             self.normalize(item["word"])
             for item in self.words
         ]
 
-        # Number of words in the query.
         query_length = len(query_words)
 
-        # Slide through the transcript one word at a time.
-        #
-        # Example:
-        #
-        # transcript:
-        # ... my mind rebels at stagnation ...
-        #
-        # query:
-        # my mind rebels at stagnation
-        #
-        # When the window starts at "my",
-        # we compare the complete sequence.
-        for start_index in range(
-            len(transcript_words) - query_length + 1
-        ):
+        # Sliding window over the entire word-level transcript
+        for i in range(len(normalized_transcript) - query_length + 1):
 
-            # Extract a window of the same size as the query.
-            window = transcript_words[
-                start_index:start_index + query_length
+            window = normalized_transcript[
+                i:i + query_length
             ]
 
-            # Check whether the COMPLETE sequence matches.
+            # Exact sequential comparison
             if window == query_words:
 
-                # The first matched word.
-                first_word = self.words[start_index]
-
-                # The final matched word.
-                last_word = self.words[
-                    start_index + query_length - 1
+                matched_words = self.words[
+                    i:i + query_length
                 ]
 
                 return {
                     "query": query,
-
-                    # Timestamp where the FIRST query word starts.
-                    "start_time": first_word["start"],
-
-                    # Timestamp where the LAST query word ends.
-                    "end_time": last_word["end"],
-
-                    # Useful for debugging and explanation.
-                    "matched_words": self.words[
-                        start_index:start_index + query_length
+                    "matched_text": " ".join(
+                        word["word"] for word in matched_words
+                    ),
+                    "start": matched_words[0]["start"],
+                    "end": matched_words[-1]["end"],
+                    "start_word": matched_words[0]["word"],
+                    "end_word": matched_words[-1]["word"],
+                    "word_count": len(matched_words),
+                    "word_ids": [
+                        word["id"] for word in matched_words
                     ]
                 }
 
-        # Complete sequence was not found.
         return None

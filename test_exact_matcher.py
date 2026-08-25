@@ -1,71 +1,54 @@
-from retrieval.exact_matcher import ExactMatcher
+import json
+from pathlib import Path
+
+from word_matcher import WordMatcher
 
 
-# ---------------------------------------------------------
-# Path to our word-level Whisper transcription
-# ---------------------------------------------------------
+# --------------------------------------------------
+# Configuration
+# --------------------------------------------------
 
-TRANSCRIPT_PATH = "word_transcribe.json"
+TRANSCRIPT_PATH = Path("word_transcribe.json")
 
-
-# ---------------------------------------------------------
-# Create the matcher
-# ---------------------------------------------------------
-
-matcher = ExactMatcher(TRANSCRIPT_PATH)
+QUERY = "My mind rebels at stagnation"
 
 
-# ---------------------------------------------------------
-# Ask the user for a query
-# ---------------------------------------------------------
+# --------------------------------------------------
+# Load matcher
+# --------------------------------------------------
 
-query = input("\nEnter the dialogue to find: ")
-
-
-# ---------------------------------------------------------
-# Search for the first complete occurrence
-# ---------------------------------------------------------
-
-result = matcher.find_first_occurrence(query)
+matcher = WordMatcher(TRANSCRIPT_PATH)
 
 
-# ---------------------------------------------------------
-# Display the result
-# ---------------------------------------------------------
+# --------------------------------------------------
+# Search
+# --------------------------------------------------
+
+result = matcher.find_first_occurrence(QUERY)
+
+
+# --------------------------------------------------
+# Display result
+# --------------------------------------------------
+
+print("\n========== EXACT WORD MATCH ==========\n")
 
 if result is None:
 
-    print("\nNo exact sequential occurrence found.")
+    print("No complete occurrence found.")
 
 else:
 
-    print("\n========== EXACT OCCURRENCE ==========")
+    print(f"Query        : {result['query']}")
+    print(f"Matched text : {result['matched_text']}")
 
-    print(f"Text          : {result['text']}")
+    print(f"\nStart word   : {result['start_word']}")
+    print(f"Start time   : {result['start']:.3f} seconds")
 
-    print(
-        f"Start time    : "
-        f"{result['start']:.3f} seconds"
-    )
+    print(f"\nEnd word     : {result['end_word']}")
+    print(f"End time     : {result['end']:.3f} seconds")
 
-    print(
-        f"End time      : "
-        f"{result['end']:.3f} seconds"
-    )
+    print(f"\nWord count   : {result['word_count']}")
+    print(f"Word IDs     : {result['word_ids']}")
 
-    print(
-        f"First word    : "
-        f"{result['start_word']}"
-    )
-
-    print(
-        f"Last word     : "
-        f"{result['end_word']}"
-    )
-
-    print(
-        f"Word indexes  : "
-        f"{result['word_index_start']} "
-        f"→ "
-        f"{result['word_index_end']}"
-    )
+    print("\n======================================")
