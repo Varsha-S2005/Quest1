@@ -1,7 +1,7 @@
 {
   "model": "openai/whisper-small",
   "device": "GPU",
-  "processing_time_seconds": 499.96,
+  "processing_time_seconds": 484.24,
   "segment_count": 346,
   "segments": [
     {
