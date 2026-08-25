@@ -1,0 +1,1280 @@
+{
+  "model": "openai/whisper-medium",
+  "device": "GPU",
+  "processing_time_seconds": 1085.25,
+  "segment_count": 212,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 228.84,
+      "text": "Thank you very much for joining us today, and we'll see you in the next one. ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, Psst! Got you. Now, look here. What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's that? What's Close the window, John beautiful Irena Adler, of dubious and questionable memory. At the time of our involvement in the Irene Adler case, Holmes and I had been sharing rooms in Baker Street for some years. My practice had caused me to be absent in the country for several days. As usual, after leaving Holmes for any length of time, I returned filled with apprehension as to his mood. oh hello mrs. Hudson. dr. Watson just look at you half soaked to the skin. yes well I'm not surprised. I have just spent 20 minutes standing in the pouring rain waiting for a tan. do that old wound of yours any good getting so wet doctor. no. just take this coat and your hat. see that they're properly dry. mrs. Hudson I haven't eaten all day. do hope supper will be up very soon. that's very doubtful. I don't know what's come over mr. Holmes. he seems to be all on edge. I'm not to bring up supper"
+    },
+    {
+      "id": 1,
+      "start": 228.84,
+      "end": 306.0,
+      "text": "until I'm called. those are his orders. thank you miss Hudson. Come on, let's get out of here. My dear Holmes. What is it tonight? morphine or cocaine? well I can strongly recommend a seven percent solution of cocaine. would you care to try it? No, indeed."
+    },
+    {
+      "id": 2,
+      "start": 306.0,
+      "end": 309.0,
+      "text": "I speak not only as your friend, but as a medical man."
+    },
+    {
+      "id": 3,
+      "start": 309.0,
+      "end": 312.0,
+      "text": "How can you risk such damage"
+    },
+    {
+      "id": 4,
+      "start": 312.0,
+      "end": 316.0,
+      "text": "to the great powers with which you have been endowed?"
+    },
+    {
+      "id": 5,
+      "start": 316.0,
+      "end": 319.0,
+      "text": "I cannot tell you how it clarifies and stimulates the mind."
+    },
+    {
+      "id": 6,
+      "start": 319.0,
+      "end": 322.0,
+      "text": "Yes, and destroys it in time."
+    },
+    {
+      "id": 7,
+      "start": 325.0,
+      "end": 328.0,
+      "text": "My mind rebels at stagnation."
+    },
+    {
+      "id": 8,
+      "start": 330.0,
+      "end": 331.0,
+      "text": "Give me problems."
+    },
+    {
+      "id": 9,
+      "start": 332.0,
+      "end": 333.0,
+      "text": "Give me work."
+    },
+    {
+      "id": 10,
+      "start": 335.0,
+      "end": 338.0,
+      "text": "Give me the most abstruse cryptogram, the most intricate analysis."
+    },
+    {
+      "id": 11,
+      "start": 339.0,
+      "end": 341.0,
+      "text": "And I'm in my proper atmosphere."
+    },
+    {
+      "id": 12,
+      "start": 342.0,
+      "end": 344.0,
+      "text": "Then I can dispense with artificial stimulants."
+    },
+    {
+      "id": 13,
+      "start": 507.72,
+      "end": 545.36,
+      "text": "But I abhor the dull routine of existence. I crave mental exaltation. That is why I've chosen my own profession, or rather created it, for I am the only one in the world. The only unofficial detective? The only unofficial consulting detective. I take no credit in my cases. The work itself, the pleasure of finding a field for my particular powers, is my highest reward. You can close that drawer. You have made the wrong diagnosis doctor. I have my stimulant here. I hope you enjoyed your week in the country. it was good for the appetite. Incidentally, I do wish you would ring for supper. What is this? It means I must get ready for my visitor. It came by the morning post. Give me your observations. Well,'s undated and without either signature or address. good read aloud. dear mr. Holmes there will call upon you tonight at a quarter to eight a gentleman who... good heavens we've only a few minutes Holmes. go on. a gentleman who desires to consult with you upon a matter of the very deepest moment. your recent services to one of the royal houses of Europe have shown that you are one who may be safely trusted with matters which are of an importance which can hardly be exaggerated. this account of you we have from all quarters received be in your chamber then. good heavens this is a mystery indeed. what do you imagine it means? well I have no data yet. it is accountant on the state to theorize before one has data. but the note itself what do you deduce from? it's a man's writing. good. presumably well to do. it's expensive paper this. it's peculiarly strong and stiff. peculiar that is the very word. it is not English paper at all. hold it up to the light. ah large E small G large P and G with a small T woven into the texture. And that is? Maker's monogram. Excellent, Watson. Come along. Let us consult our continental gazetteer. Your cigars. You see, I was not unmindful of your return. Oh, oh. Would you care for some whiskey? Later, perhaps perhaps when we've eaten. the monogram is an abbreviation for Papier-Gesellschaft which is the German for paper company and the E.G. Eglow-Eglonizegria. a German-speaking district of Bohemia noted for its numerous glass factories and paper mills there. Bohemia? the kingdom of Bohemia. And the note is written by a German-speaking district of Bohemia noted for its numerous glass factories and paper mills there."
+    },
+    {
+      "id": 14,
+      "start": 545.36,
+      "end": 548.16,
+      "text": "Bohemia. the kingdom of Bohemia."
+    },
+    {
+      "id": 15,
+      "start": 548.16,
+      "end": 550.16,
+      "text": "and the note is written by a German."
+    },
+    {
+      "id": 16,
+      "start": 550.16,
+      "end": 556.56,
+      "text": "you see this account of you we have from all quarters received only a German is so uncourteous to his words."
+    },
+    {
+      "id": 17,
+      "start": 556.56,
+      "end": 560.56,
+      "text": "sir we are to expect a German from Bohemia."
+    },
+    {
+      "id": 18,
+      "start": 587.2,
+      "end": 592.84,
+      "text": "drawn by a pair. a nice little broom. there's money in this case Watson if there's nothing else. Holmes I think your visitor will want me out of the way. not a bit doctor stay where you are. I am lost without my Boswell. but he sounded so secretive. I may need your help and so may he. now stay in that armchair and give me your full attention. here he comes."
+    },
+    {
+      "id": 19,
+      "start": 600.36,
+      "end": 604.84,
+      "text": "sorry sir but you cannot come in here unannounced like this. Mr. Holmes does not"
+    },
+    {
+      "id": 20,
+      "start": 604.84,
+      "end": 607.92,
+      "text": "see anybody without appointment."
+    },
+    {
+      "id": 21,
+      "start": 617.92,
+      "end": 621.76,
+      "text": "Oh I'm so sorry Mr. Holmes. There was nothing I could do."
+    },
+    {
+      "id": 22,
+      "start": 621.76,
+      "end": 624.72,
+      "text": "It's perfectly all right Mrs. Hudson."
+    },
+    {
+      "id": 23,
+      "start": 624.72,
+      "end": 690.0,
+      "text": "If you would kindly leave us and close the door. thank you. you had my note? yes. pray take a seat well this is my friend and colleague dr. Watson who is occasionally good enough to help me in my cases. how do you do sir? whom do I have the honor to address? you may address me as the Comfort Crum, the Bohemian nobleman. I should much prefer to communicate with you alone. May it be both or none. You may say before this gentleman anything which you may wish to say to me. Very well, I take your word that he is a man of honor and discretion. But I must begin by binding you both to absolute secrecy for a period of two years."
+    },
+    {
+      "id": 24,
+      "start": 690.0,
+      "end": 691.0,
+      "text": "Indeed."
+    },
+    {
+      "id": 25,
+      "start": 691.0,
+      "end": 694.0,
+      "text": "At the end of that time, the matter will be of no importance."
+    },
+    {
+      "id": 26,
+      "start": 694.0,
+      "end": 699.0,
+      "text": "At present, it is of such weight that it may have an influence upon European history."
+    },
+    {
+      "id": 27,
+      "start": 702.0,
+      "end": 704.0,
+      "text": "I promise."
+    },
+    {
+      "id": 28,
+      "start": 745.0,
+      "end": 751.0,
+      "text": "And I. I promise and I you will excuse this mask the august person who employs me wishes his agent to be unknown to you in fact I may confess that the title I've given you is not exactly my own. I was aware of that. The circumstances are of great delicacy. Every precaution must be taken to prevent an immense scandal which would seriously compromise one of the royal houses of Europe. To speak plainly. The matter concerns the great house of Olmstein, hereditary kings of Bohemia."
+    },
+    {
+      "id": 29,
+      "start": 751.0,
+      "end": 755.0,
+      "text": "I was aware of that too, Your Majesty."
+    },
+    {
+      "id": 30,
+      "start": 792.32,
+      "end": 800.32,
+      "text": "You are right. I am the King. Why should I attempt to conceal it? Why indeed. Your Majesty had not spoken before I was aware that I was addressing Wilhelm Gotreich, Sigismond von Ohmstein, Grand Duke of Kassel, Feldstein, and hereditary King of Bohemia, and in passing the finest duelist in Europe."
+    },
+    {
+      "id": 31,
+      "start": 800.32,
+      "end": 802.32,
+      "text": "You have killed four opponents."
+    },
+    {
+      "id": 32,
+      "start": 802.32,
+      "end": 804.32,
+      "text": "Honorably."
+    },
+    {
+      "id": 33,
+      "start": 804.32,
+      "end": 806.0,
+      "text": "Of course."
+    },
+    {
+      "id": 34,
+      "start": 814.0,
+      "end": 816.0,
+      "text": "The facts are briefly these."
+    },
+    {
+      "id": 35,
+      "start": 816.0,
+      "end": 818.0,
+      "text": "Ah."
+    },
+    {
+      "id": 36,
+      "start": 818.0,
+      "end": 822.0,
+      "text": "Some ten years ago, during a lengthy visit to Warsaw,"
+    },
+    {
+      "id": 37,
+      "start": 822.0,
+      "end": 870.0,
+      "text": "I made the acquaintance of the well-known adventurers, Irene Adler. The name is no doubt familiar to you. Kindly look her up in my index, Willie Watson. So I deduced that Your Majesty became entangled with this lady who read her some compromising letters and is now desirous of getting them back. precisely so. but how could you know that? Abinieri Italian General Staff Adelairena born New Jersey 18, 1858. Is this the lady?"
+    },
+    {
+      "id": 38,
+      "start": 870.0,
+      "end": 872.0,
+      "text": "New Jersey, let me see."
+    },
+    {
+      "id": 39,
+      "start": 872.0,
+      "end": 878.0,
+      "text": "Singer Contralto, appeared at La Scala, opera houses Petersburg and Warsaw."
+    },
+    {
+      "id": 40,
+      "start": 878.0,
+      "end": 881.0,
+      "text": "Retired from the operatic stage, now living in London."
+    },
+    {
+      "id": 41,
+      "start": 881.0,
+      "end": 883.0,
+      "text": "Makes occasional concert appearances."
+    },
+    {
+      "id": 42,
+      "start": 883.0,
+      "end": 947.2,
+      "text": "That is the night. The next morning, when the sun was setting, he went out to look for a place where he could stay for the night. The next morning, when the sun. if this person should produce your letters for blackmailing or other purposes,"
+    },
+    {
+      "id": 43,
+      "start": 948.16,
+      "end": 949.92,
+      "text": "how is she to prove their authenticity?"
+    },
+    {
+      "id": 44,
+      "start": 951.6,
+      "end": 952.8,
+      "text": "There is the writing."
+    },
+    {
+      "id": 45,
+      "start": 952.8,
+      "end": 953.68,
+      "text": "Poo poo forgery."
+    },
+    {
+      "id": 46,
+      "start": 954.88,
+      "end": 957.2,
+      "text": "My private writing paper."
+    },
+    {
+      "id": 47,
+      "start": 957.2,
+      "end": 957.7,
+      "text": "Stolen."
+    },
+    {
+      "id": 48,
+      "start": 958.8,
+      "end": 960.08,
+      "text": "My own seal."
+    },
+    {
+      "id": 49,
+      "start": 960.08,
+      "end": 960.72,
+      "text": "Imitated."
+    },
+    {
+      "id": 50,
+      "start": 961.76,
+      "end": 963.2,
+      "text": "My photograph."
+    },
+    {
+      "id": 51,
+      "start": 963.2,
+      "end": 963.7,
+      "text": "Bought."
+    },
+    {
+      "id": 52,
+      "start": 1027.16,
+      "end": 1028.16,
+      "text": "We were both in that photograph. Oh, dear, dear, dear, is that is very bad, Her Majesty has certainly committed an indiscretion. She was beautiful, witching, clever, daring. I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,"
+    },
+    {
+      "id": 53,
+      "start": 1028.16,
+      "end": 1029.16,
+      "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,"
+    },
+    {
+      "id": 54,
+      "start": 1029.16,
+      "end": 1030.16,
+      "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,"
+    },
+    {
+      "id": 55,
+      "start": 1030.16,
+      "end": 1031.16,
+      "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,"
+    },
+    {
+      "id": 56,
+      "start": 1031.16,
+      "end": 1032.16,
+      "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,"
+    },
+    {
+      "id": 57,
+      "start": 1032.16,
+      "end": 1033.16,
+      "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,"
+    },
+    {
+      "id": 58,
+      "start": 1033.16,
+      "end": 1147.0,
+      "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, Clever, daring. СПОКОЙНАЯ МУЗЫКА I was only crown prince then. I was young. I am but 30 now. of course your majesty has attempted to recover the photograph. we have tried and failed. then your majesty must pay. it must be bought. she will not sell. stolen then? five attempts have been made. twice. burglars in my pay rent-sacked her house. Once, we diverted her luggage when she traveled. Twice, she has been waylaid. There has been no sign of it. Oh. Oh, my! They're serious! Yes. Yes, it is very serious indeed. Well, what does she propose to do with this photograph, if not to extort money? To ruin me. Ah. I'm about to be married. As I've heard. To the Princess Clotilde Lothman von Sachse-Mendingen."
+    },
+    {
+      "id": 59,
+      "start": 1147.0,
+      "end": 1149.0,
+      "text": "Second daughter to the King of Scandinavia."
+    },
+    {
+      "id": 60,
+      "start": 1149.0,
+      "end": 1151.0,
+      "text": "It is a brilliant match."
+    },
+    {
+      "id": 61,
+      "start": 1151.0,
+      "end": 1155.0,
+      "text": "Precisely. But you will know the strict principles of her family."
+    },
+    {
+      "id": 62,
+      "start": 1155.0,
+      "end": 1158.0,
+      "text": "She's herself the soul of delicacy."
+    },
+    {
+      "id": 63,
+      "start": 1158.0,
+      "end": 1185.0,
+      "text": "A shadow of doubt as to my conduct would bring the matter to an end. And there ain't a other threatens to send them the photograph. And she'll do it. She is a son of steel. She's more beautiful than any other woman I've known, more salute than any man."
+    },
+    {
+      "id": 64,
+      "start": 1185.0,
+      "end": 1188.0,
+      "text": "There are no lengths to which she would not go. None!"
+    },
+    {
+      "id": 65,
+      "start": 1188.0,
+      "end": 1191.0,
+      "text": "To prevent my marriage to another woman!"
+    },
+    {
+      "id": 66,
+      "start": 1194.0,
+      "end": 1196.0,
+      "text": "Your Majesty."
+    },
+    {
+      "id": 67,
+      "start": 1198.0,
+      "end": 1202.0,
+      "text": "Why is this lady so vindictive?"
+    },
+    {
+      "id": 68,
+      "start": 1204.0,
+      "end": 1210.74,
+      "text": "Oh, there was once some talk of marriage. ha! she would not"
+    },
+    {
+      "id": 69,
+      "start": 1210.74,
+      "end": 1230.7,
+      "text": "see that it was impossible. you are sure that she has not sent the photograph yet Thank you very much for watching."
+    },
+    {
+      "id": 70,
+      "start": 1230.7,
+      "end": 1231.7,
+      "text": "I'll see you next time."
+    },
+    {
+      "id": 71,
+      "start": 1231.7,
+      "end": 1232.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 72,
+      "start": 1232.7,
+      "end": 1233.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 73,
+      "start": 1233.7,
+      "end": 1234.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 74,
+      "start": 1234.7,
+      "end": 1235.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 75,
+      "start": 1235.7,
+      "end": 1236.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 76,
+      "start": 1236.7,
+      "end": 1237.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 77,
+      "start": 1237.7,
+      "end": 1238.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 78,
+      "start": 1238.7,
+      "end": 1239.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 79,
+      "start": 1239.7,
+      "end": 1240.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 80,
+      "start": 1240.7,
+      "end": 1241.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 81,
+      "start": 1241.7,
+      "end": 1242.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 82,
+      "start": 1242.7,
+      "end": 1243.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 83,
+      "start": 1243.7,
+      "end": 1244.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 84,
+      "start": 1244.7,
+      "end": 1245.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 85,
+      "start": 1245.7,
+      "end": 1246.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 86,
+      "start": 1246.7,
+      "end": 1247.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 87,
+      "start": 1247.7,
+      "end": 1248.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 88,
+      "start": 1248.7,
+      "end": 1249.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 89,
+      "start": 1249.7,
+      "end": 1250.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 90,
+      "start": 1250.7,
+      "end": 1251.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 91,
+      "start": 1251.7,
+      "end": 1252.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 92,
+      "start": 1252.7,
+      "end": 1253.7,
+      "text": "Bye for now."
+    },
+    {
+      "id": 93,
+      "start": 1253.7,
+      "end": 1246.0,
+      "text": "Bye for now. Bye for now. Bye for now. the photograph yet. I am sure. why? it may be on its way at this very moment. because she has said that she would send it on the day when the betrothal was publicly proclaimed. that will be next Monday. and I must leave London on Friday to be home for the ceremony"
+    },
+    {
+      "id": 94,
+      "start": 1246.6,
+      "end": 1248.6,
+      "text": "Ah, then we do have three days"
+    },
+    {
+      "id": 95,
+      "start": 1249.96,
+      "end": 1253.92,
+      "text": "Well, that is very fortunate for I do have other matters in hand"
+    },
+    {
+      "id": 96,
+      "start": 1255.28,
+      "end": 1257.28,
+      "text": "Where can I find your Majesty in London?"
+    },
+    {
+      "id": 97,
+      "start": 1257.68,
+      "end": 1259.68,
+      "text": "It's the Langham Hotel"
+    },
+    {
+      "id": 98,
+      "start": 1260.88,
+      "end": 1266.0,
+      "text": "As the Count von Crumb remember. Yes, of course, and as to expenditure."
+    },
+    {
+      "id": 99,
+      "start": 1272.0,
+      "end": 1277.0,
+      "text": "Here are 300 pounds in gold and 700 in notes."
+    },
+    {
+      "id": 100,
+      "start": 1279.0,
+      "end": 1282.0,
+      "text": "And Miss Irene Adler's address."
+    },
+    {
+      "id": 101,
+      "start": 1287.36,
+      "end": 1329.88,
+      "text": "Good night, Your Majesty, and I trust we shall soon have good news for you. Holmes we can die in a thrumanus but we only have three days till Friday it must be settled by Friday the composer Tchaikovsky is conducting his own works of the St. James' Hall. No, no, no. It must be settled by Friday. the composer Tchaikovsky is conducting his own works of the St. James's Hall. no no no. it must be settled by Friday."
+    },
+    {
+      "id": 102,
+      "start": 1331.88,
+      "end": 1339.52,
+      "text": "my dear Orson. I'd like to be alone. you are hungry? yes. I'm sure mrs. Hudson will"
+    },
+    {
+      "id": 103,
+      "start": 1339.52,
+      "end": 1343.04,
+      "text": "bring her up a sandwich. we will not discuss this matter until tomorrow"
+    },
+    {
+      "id": 104,
+      "start": 1343.04,
+      "end": 1426.64,
+      "text": "afternoon. good night I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I'm so sorry, I 1.5kg Better than working in it, mate. What is? Looking on. I'll change with you anytime God"
+    },
+    {
+      "id": 105,
+      "start": 1429.62,
+      "end": 1430.72,
+      "text": "Out of a position, are you hey weeks?"
+    },
+    {
+      "id": 106,
+      "start": 1434.18,
+      "end": 1435.3,
+      "text": "I'm here first-class cream. Oh, yeah"
+    },
+    {
+      "id": 107,
+      "start": 1438.98,
+      "end": 1442.68,
+      "text": "Well, you could give me an hand if you like I see you all right"
+    },
+    {
+      "id": 108,
+      "start": 1447.0,
+      "end": 1454.0,
+      "text": "Why not give it the price of the. I thought it was a booze."
+    },
+    {
+      "id": 109,
+      "start": 1454.0,
+      "end": 1525.76,
+      "text": "Strap them here. Show us what you can do. I I spent a couple of hours with the cabbie and his cronies. Mr. Rainer Adler Has certainly turned all men's heads in those parts She is the daintiest thing under a bonnet on this planet So say the certain Serpentine Muse fraternity to a man. she lives quietly. drives out at 5 in the evening. returns at 7 sharp for dinner. seldom goes out at other times except when she sings. she has only one male visitor but sees a good deal of him he"
+    },
+    {
+      "id": 110,
+      "start": 1525.76,
+      "end": 1529.6,
+      "text": "never calls less than once a day and often twice his name is a mr. Godfrey"
+    },
+    {
+      "id": 111,
+      "start": 1529.6,
+      "end": 1543.72,
+      "text": "Norton of the inner temple you see the advantages of having a cat man as a confidant mr. Godfrey Norton is a lawyer that is important Ominous, perhaps."
+    },
+    {
+      "id": 112,
+      "start": 1543.72,
+      "end": 1546.72,
+      "text": "Why his repeated visits?"
+    },
+    {
+      "id": 113,
+      "start": 1548.72,
+      "end": 1546.0,
+      "text": "Is she his claim? Arminus, perhaps. Why his repeated visits?"
+    },
+    {
+      "id": 114,
+      "start": 1549.0,
+      "end": 1552.0,
+      "text": "Is she his client, friend, or mistress?"
+    },
+    {
+      "id": 115,
+      "start": 1555.0,
+      "end": 1559.0,
+      "text": "If he is her lawyer, he might have the photograph in his strongbox."
+    },
+    {
+      "id": 116,
+      "start": 1562.0,
+      "end": 1585.0,
+      "text": "If I love her, he might not even know of it. The music will come, see."
+    },
+    {
+      "id": 117,
+      "start": 1585.0,
+      "end": 1590.0,
+      "text": "And the weary will come, see."
+    },
+    {
+      "id": 118,
+      "start": 1590.0,
+      "end": 1595.0,
+      "text": "And the weary will come, see."
+    },
+    {
+      "id": 119,
+      "start": 1595.0,
+      "end": 1600.0,
+      "text": "And the weary will come, see."
+    },
+    {
+      "id": 120,
+      "start": 1600.0,
+      "end": 1626.0,
+      "text": "And the weary will come, see. And the weary will come, see. ប surprising chain of events overtook me,"
+    },
+    {
+      "id": 121,
+      "start": 1626.0,
+      "end": 1628.0,
+      "text": "starting with the arrival of someone"
+    },
+    {
+      "id": 122,
+      "start": 1628.0,
+      "end": 1631.0,
+      "text": "I presumed to be Mr. Godfrey Norman."
+    },
+    {
+      "id": 123,
+      "start": 1634.0,
+      "end": 1636.0,
+      "text": "Wait for me, will you?"
+    },
+    {
+      "id": 124,
+      "start": 1643.0,
+      "end": 1766.0,
+      "text": "Petro Mistress's carriage. It's time to go back to the tent. I'm going to sleep in the tent for a while. I'm going to sleep in the tent for a while. I'm going to sleep in the tent for a while. I'm going to sleep in the tent for of St. Monica edge railroad I must arrive there at least five minutes before 12 that gives you 20 minutes half a guinea if might die for. A face a man might die for? Unusual language for you, Holmes. A metaphor, Watson, nothing else. I was just about to sprint after an a lander and perch on the back when another cab came through the street. He looked twice at such a shabby fare. But I jumped in before he had time to object,"
+    },
+    {
+      "id": 125,
+      "start": 1766.0,
+      "end": 1768.0,
+      "text": "showed him a handful of souvenirs and promised him one"
+    },
+    {
+      "id": 126,
+      "start": 1768.0,
+      "end": 1771.0,
+      "text": "if he would get me to the church of St. Monica within 20 minutes."
+    },
+    {
+      "id": 127,
+      "start": 1771.0,
+      "end": 1778.0,
+      "text": "I don't think that I have ever been driven faster than a car."
+    },
+    {
+      "id": 128,
+      "start": 1778.0,
+      "end": 1805.52,
+      "text": "But they were there before us I'm very sorry mr. Norton for pity's sake it's almost midday."
+    },
+    {
+      "id": 129,
+      "start": 1805.52,
+      "end": 1830.92,
+      "text": "the latest time allowed by law. I would have called in one of those confounded churchmen but I saw no reason to let them know our business and I sent them off for a drink. oh dear Lord. Godfrey. you! you! come here man. Yes, I mean you you we've only a few minutes left it won't"
+    },
+    {
+      "id": 130,
+      "start": 1830.92,
+      "end": 1834.4,
+      "text": "be legal come man come"
+    },
+    {
+      "id": 131,
+      "start": 1840.64,
+      "end": 1865.58,
+      "text": "hold this and do as you're told, you'll be paid. Ah, we have our witness. The ceremony may proceed. Dearly beloved, we are gathered here in the sight of God to join together this"
+    },
+    {
+      "id": 132,
+      "start": 1865.58,
+      "end": 1894.64,
+      "text": "man and this woman in holy matrimony which is an honorable estate instituted of God in the time of man's innocency signifying unto us the mystical union that is betwixt Christ and his church I allowed you to persuade me. Now you must allow me to persuade you. I shall see"
+    },
+    {
+      "id": 133,
+      "start": 1894.64,
+      "end": 1921.0,
+      "text": "you tomorrow. At the very first moment. I love you."
+    },
+    {
+      "id": 134,
+      "start": 1923.0,
+      "end": 1926.0,
+      "text": "John?"
+    },
+    {
+      "id": 135,
+      "start": 1928.0,
+      "end": 1934.0,
+      "text": "Hey, you!"
+    },
+    {
+      "id": 136,
+      "start": 1936.0,
+      "end": 1938.0,
+      "text": "Come here, my man."
+    },
+    {
+      "id": 137,
+      "start": 1940.0,
+      "end": 1942.0,
+      "text": "Come here."
+    },
+    {
+      "id": 138,
+      "start": 1965.0,
+      "end": 1966.0,
+      "text": "Godfrey, let me. Sir I want to thank you for being so miraculously present when we needed you."
+    },
+    {
+      "id": 139,
+      "start": 1969.0,
+      "end": 1971.0,
+      "text": "How fortunate that you have remained close by. Well, I'm in no hurry, ma'am."
+    },
+    {
+      "id": 140,
+      "start": 1974.0,
+      "end": 1976.0,
+      "text": "I hope you will accept this."
+    },
+    {
+      "id": 141,
+      "start": 1980.0,
+      "end": 1982.0,
+      "text": "I don't need no tip, ma'am."
+    },
+    {
+      "id": 142,
+      "start": 1983.0,
+      "end": 2046.0,
+      "text": "Oh, sir. Let us call it a little souvenir. She gave me a sovereign. Here it is. what an extraordinary turn of events. I shall wear it on my watch chain in memory of the occasion. and what now? well during the ceremony I thought my plans had been overthrown. If they had made an immediate departure, I would have necessitated the most prompt and energetic measures on my part. But he went back to the temple and she went to her own home, thus giving us time to act. How? Doctor, I shall require all your courage and alertness."
+    },
+    {
+      "id": 143,
+      "start": 2046.0,
+      "end": 2048.0,
+      "text": "I should be delighted."
+    },
+    {
+      "id": 144,
+      "start": 2049.0,
+      "end": 2051.0,
+      "text": "You don't mind breaking the law?"
+    },
+    {
+      "id": 145,
+      "start": 2051.0,
+      "end": 2053.0,
+      "text": "Not in the least."
+    },
+    {
+      "id": 146,
+      "start": 2053.0,
+      "end": 2055.0,
+      "text": "Nor running the chance of arrest?"
+    },
+    {
+      "id": 147,
+      "start": 2058.0,
+      "end": 2060.0,
+      "text": "Not in a good cause."
+    },
+    {
+      "id": 148,
+      "start": 2062.0,
+      "end": 2064.0,
+      "text": "Well, the cause is excellent."
+    },
+    {
+      "id": 149,
+      "start": 2064.0,
+      "end": 2125.3,
+      "text": "Well, then I am your man. Splendid. Now, the question is, homes, you really do look quite like. Well, the question is where to find the photograph. I mean, the house has twice been burned. She was too clever for them. She is a remarkable woman. they must have searched very thoroughly. they"
+    },
+    {
+      "id": 150,
+      "start": 2125.3,
+      "end": 2172.12,
+      "text": "did not know how to look. and how will you look? I shall not look. what then? I will allow her to show me. but she refused. she will not be able to. we draw near the scene of action. We had better walk from here. You know your instructions. When you know your instructions when you raise your hand I act and we meet at the"
+    },
+    {
+      "id": 151,
+      "start": 2172.12,
+      "end": 2208.0,
+      "text": "rendezvous in ten minutes there she comes I'll be right back. Oh, no. You don't have it. Oh, was he a first? I opened the door, Nady. He never knew it was me. Clear off, you two. Me? Oh! Nothing carries doors as the legend of it means of livelihood, Mr. Flanky."
+    },
+    {
+      "id": 152,
+      "start": 2208.0,
+      "end": 2211.0,
+      "text": "You ain't gonna stop a man earning a cop, I see."
+    },
+    {
+      "id": 153,
+      "start": 2211.0,
+      "end": 2212.0,
+      "text": "Pass."
+    },
+    {
+      "id": 154,
+      "start": 2212.0,
+      "end": 2214.0,
+      "text": "You there, let go of my coachman."
+    },
+    {
+      "id": 155,
+      "start": 2214.0,
+      "end": 2216.0,
+      "text": "Take the bread from me mouth, would you?"
+    },
+    {
+      "id": 156,
+      "start": 2216.0,
+      "end": 2265.0,
+      "text": "I'll fill your mouth, chum. No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, you, noob! So stop that scoundrel! You stop him! Stand back! Do you see what you've done? He's dead! Scarab him, I would have taught my son! He's still breathing, but he's taken a bad knock. I am sorry, ma'am."
+    },
+    {
+      "id": 157,
+      "start": 2265.0,
+      "end": 2267.0,
+      "text": "You did your best, John."
+    },
+    {
+      "id": 158,
+      "start": 2267.0,
+      "end": 2268.0,
+      "text": "Is he badly hurt?"
+    },
+    {
+      "id": 159,
+      "start": 2268.0,
+      "end": 2270.0,
+      "text": "It is only superficial."
+    },
+    {
+      "id": 160,
+      "start": 2270.0,
+      "end": 2272.0,
+      "text": "But he needs attention, quickly."
+    },
+    {
+      "id": 161,
+      "start": 2272.0,
+      "end": 2274.0,
+      "text": "But he can't lie in the street."
+    },
+    {
+      "id": 162,
+      "start": 2274.0,
+      "end": 2276.0,
+      "text": "Bring him into the house."
+    },
+    {
+      "id": 163,
+      "start": 2281.0,
+      "end": 2341.86,
+      "text": "All right, sir. Oh Oh oh you're conscious thank goodness you are a brave man over here Willard no no"
+    },
+    {
+      "id": 164,
+      "start": 2341.86,
+      "end": 2450.2,
+      "text": "stand back I shall look after my friend in need, sir. Will you look toward me? It is no sight for a lady. I have strong nerves, dear friend. No, no, no. I cannot do it. Thank you. A bandage. As you wish. I'm so relieved that your wound isn't serious. It is but shallow the gang, madam. It was all prearranged to rob you. All those men to snatch one little pass. Oh, no, dear friend, it wouldn't have paid them. My vocation takes me much amongst the poor and even the criminal classes, madam. Look at those people staring. Curiosity is so unseemly, but I universal oh I am so sorry I think I'm"
+    },
+    {
+      "id": 165,
+      "start": 2450.2,
+      "end": 2527.0,
+      "text": "going to faint oh I need some air. Willard the window some drinking water. are there any smelling salts? Madam? Madam, I think I can smell fire. What? Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! Fire! It's a false alarm! It's a false alarm! Look!"
+    },
+    {
+      "id": 166,
+      "start": 2529.0,
+      "end": 2532.0,
+      "text": "It's a trick! It's a trick! Tell them! Tell them!"
+    },
+    {
+      "id": 167,
+      "start": 2537.0,
+      "end": 2565.76,
+      "text": "It's a false alarm! Do you hear? We do not need the fire engine. What is it? It is the plumber's rocket, madam. One of my flock is a plumber. It is ignited by a cap and sends smoke into pipes to betray cracks and holes. no no"
+    },
+    {
+      "id": 168,
+      "start": 2565.76,
+      "end": 2588.08,
+      "text": "no no no it's all right it will disperse. you said it was a trick. who would play such a trick on me? one of the gang madam. but to what purpose I've escaped them? revenge. Revenge?"
+    },
+    {
+      "id": 169,
+      "start": 2588.08,
+      "end": 2585.0,
+      "text": "Are there such wicked people? Revenge? Revenge?"
+    },
+    {
+      "id": 170,
+      "start": 2588.0,
+      "end": 2590.0,
+      "text": "Are there such wicked people?"
+    },
+    {
+      "id": 171,
+      "start": 2591.0,
+      "end": 2596.0,
+      "text": "There are people in this world, madam, to whom revenge is in itself a reward."
+    },
+    {
+      "id": 172,
+      "start": 2598.0,
+      "end": 2600.0,
+      "text": "I cannot imagine such feelings."
+    },
+    {
+      "id": 173,
+      "start": 2603.0,
+      "end": 2625.4,
+      "text": "I'm sure you cannot, madam. I am feeling more myself. I must be on my way. Oh please stay. Some refreshment. Well one of my flock expects me. Won't you let my carriage, no, the air will aid my recovery."
+    },
+    {
+      "id": 174,
+      "start": 2625.4,
+      "end": 2626.92,
+      "text": "At least your name, your address."
+    },
+    {
+      "id": 175,
+      "start": 2630.4,
+      "end": 2633.16,
+      "text": "And I may thank you adequately."
+    },
+    {
+      "id": 176,
+      "start": 2633.16,
+      "end": 2637.08,
+      "text": "Well, I am just a humble servant, madam,"
+    },
+    {
+      "id": 177,
+      "start": 2637.08,
+      "end": 2639.2,
+      "text": "of the all-seeing providence."
+    },
+    {
+      "id": 178,
+      "start": 2641.6,
+      "end": 2642.6,
+      "text": "Good night."
+    },
+    {
+      "id": 179,
+      "start": 2648.0,
+      "end": 2650.0,
+      "text": "Good night. Good night."
+    },
+    {
+      "id": 180,
+      "start": 2686.0,
+      "end": 2688.0,
+      "text": "You did it very nicely, Doctor. You have the photograph? No, but I know what it is. How did you find out? She showed me, as I told you she would. The trouble is, it still remains in her possession. You may have lost your one chance, Holmes. No. I shall call early tomorrow morning. You'll call there?"
+    },
+    {
+      "id": 181,
+      "start": 2688.0,
+      "end": 2690.0,
+      "text": "And as my own son. And with the King."
+    },
+    {
+      "id": 182,
+      "start": 2690.0,
+      "end": 2692.0,
+      "text": "The King?"
+    },
+    {
+      "id": 183,
+      "start": 2692.0,
+      "end": 2694.0,
+      "text": "And with you, Watson."
+    },
+    {
+      "id": 184,
+      "start": 2694.0,
+      "end": 2726.92,
+      "text": "You must be a witness at the end of our quest. I trust you will sleep well tonight for a change Holmes. well there's nothing like"
+    },
+    {
+      "id": 185,
+      "start": 2726.92,
+      "end": 2755.62,
+      "text": "success for curing insomnia. good night mr. Sherlock Holmes but she could not love him. I'm in hopes that she does. why? because it would spare"
+    },
+    {
+      "id": 186,
+      "start": 2755.62,
+      "end": 2759.98,
+      "text": "your majesty all fear of future annoyance. if she loves her husband then"
+    },
+    {
+      "id": 187,
+      "start": 2759.98,
+      "end": 2763.18,
+      "text": "she does not love your majesty and if she does not love your majesty why"
+    },
+    {
+      "id": 188,
+      "start": 2763.18,
+      "end": 2785.84,
+      "text": "should she interfere with your majesty's marriage Mr. Sherlock Holmes I believe I am mr. Holmes my mistress told me you were likely to call she left this morning with her husband by the 515 train from Charing Cross for"
+    },
+    {
+      "id": 189,
+      "start": 2785.84,
+      "end": 2793.92,
+      "text": "the Continent. she has left England. never to return sir. all is lost."
+    },
+    {
+      "id": 190,
+      "start": 2810.0,
+      "end": 2811.0,
+      "text": "I'm sorry. Let's go. We're saved."
+    },
+    {
+      "id": 191,
+      "start": 2820.0,
+      "end": 2821.0,
+      "text": "This is not it."
+    },
+    {
+      "id": 192,
+      "start": 2822.0,
+      "end": 2823.0,
+      "text": "Holmes."
+    },
+    {
+      "id": 193,
+      "start": 2824.0,
+      "end": 2855.16,
+      "text": "This is a different photograph do you hear me man? the letter. it is addressed to me my dear mr. Sherlock Holmes you did it very well you took me in completely until after"
+    },
+    {
+      "id": 194,
+      "start": 2855.16,
+      "end": 2859.96,
+      "text": "the alarm of fire I had not a suspicion but then when I found that I had betrayed myself"
+    },
+    {
+      "id": 195,
+      "start": 2859.96,
+      "end": 2908.32,
+      "text": "it flashed into my mind that I had been warned against you months ago I had been told that if the king employed an agent it would certainly be you yet with all this you made me really I'm sorry, I'm sorry Even before when the presence of so many people in the street had sounded an alarm in my instinct I could not think evil of such a dear kind old clergyman. But you know, I have been trained as an actress myself and male costume is nothing new to me. yes it was I who followed you to your door just to make sure that you really were the celebrated mr. Sherlock Holmes. it was I who rather imprudently wished you good night."
+    },
+    {
+      "id": 196,
+      "start": 2908.32,
+      "end": 2911.8,
+      "text": "Then I started for the temple to see my new husband."
+    },
+    {
+      "id": 197,
+      "start": 2911.8,
+      "end": 2914.88,
+      "text": "We had married in secret in case we needed to leave the country"
+    },
+    {
+      "id": 198,
+      "start": 2914.88,
+      "end": 2917.04,
+      "text": "to elude the king."
+    },
+    {
+      "id": 199,
+      "start": 2917.04,
+      "end": 2921.08,
+      "text": "Your appearance on the scene was the signal for flight."
+    },
+    {
+      "id": 200,
+      "start": 2921.08,
+      "end": 2930.0,
+      "text": "You are too formidable an antagonist."
+    },
+    {
+      "id": 201,
+      "start": 2933.0,
+      "end": 2934.0,
+      "text": "You will find the nest empty when you call tomorrow."
+    },
+    {
+      "id": 202,
+      "start": 2939.0,
+      "end": 2940.0,
+      "text": "As to the photograph, your client may rest in peace."
+    },
+    {
+      "id": 203,
+      "start": 2968.0,
+      "end": 3008.0,
+      "text": "I love and am loved by a better man than he. The King may... The King may do what he will without hindrance from one whom he has cruelly wronged. I kept it only to safeguard myself and to preserve. And I remain, dear Mr. Sherlock Holmes, very truly yours."
+    },
+    {
+      "id": 204,
+      "start": 3009.0,
+      "end": 3013.0,
+      "text": "Irene Norton, me Adler."
+    },
+    {
+      "id": 205,
+      "start": 3015.0,
+      "end": 3017.0,
+      "text": "What woman!"
+    },
+    {
+      "id": 206,
+      "start": 3019.0,
+      "end": 3022.0,
+      "text": "What a queen she would have made!"
+    },
+    {
+      "id": 207,
+      "start": 3024.0,
+      "end": 3146.52,
+      "text": "Is it not a pity she was not on my level? From what I have seen of the lady, yes indeed, she is on a very different level to your majesty. I am only so sorry that I have failed in my commission. On the contrary, my dear sir, nothing could be more successful. I know that her word is inviolate. the photograph is now as safe as if it were in the fire. I am glad that your majesty thinks so. I am immensely indebted to you. pray tell me in what way I can reward you. this ring. Your Majesty has something which I should value even more highly. You have but to name it. This. Irene's photograph. Certainly, if you wish it. Then I have the honor to wish your majesty a very good morning and that was how a great scandal threatened the kingdom of Bohemia and and how the best plans of Mr. Sherlock Holmes were beaten by a woman's wit. He used to sneer much at the cleverness of women, but I have not heard him do it of late. And when he speaks of Irena Adler, or when he refers to that woman, it is always under the honorable title of the woman. In his eyes, she eclipses the whole of her sex. It was not that he ever betrayed any sign of love for Irina Adler. All emotions such as that one are abhorrent to his cold, precise mind. He only looks on women pathologically"
+    },
+    {
+      "id": 208,
+      "start": 3146.52,
+      "end": 3149.68,
+      "text": "as the source of motives, clues."
+    },
+    {
+      "id": 209,
+      "start": 3149.68,
+      "end": 3157.44,
+      "text": "And yet, he keeps her photograph apart, locked up."
+    },
+    {
+      "id": 210,
+      "start": 3157.44,
+      "end": 3163.92,
+      "text": "There is but one woman to him, the beautiful Irena Adler"
+    },
+    {
+      "id": 211,
+      "start": 3163.92,
+      "end": 3248.0,
+      "text": "of dubious and questionable memory. Let's get started. ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ឡ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ ប្ Thank you for watching!"
+    }
+  ]
+}
