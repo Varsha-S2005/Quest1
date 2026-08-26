@@ -1,0 +1,206 @@
+PROMPT 1: Act as an experienced ML and computer vision engineer specializing in video processing.
+
+I am beginner in advanced video processing, so explain each concept in depth before introducing implementation details.
+
+Problem:
+
+1. OK.ru video URL is provided and my goal is to extract the video from the URL and save it locally.
+2. explain me what an OK.ru video URL represent and if we use you tube video link will the approach for extraction change.
+3. Research and explain the legitimate programmatic approaches available for an OK.ru video URL.
+4. Preferably use python libraries and give detailed proposed implementation along with an explanation why we are specifically choosing a particular tool, along with other possible tools that can be used instead and detailed analysis of pros and cons of the tools.
+5. provide relevant research papers URL's that solves the same problem for my deeper understanding.
+6. list the possible limitations and plan to overcome them.
+
+-------
+PROMPT 2: Act as an experienced Machine Learning and Speech Processing Engineer specializing in automatic speech recognition (ASR), audio processing, and Hugging Face pretrained models.
+
+I am a beginner in audio and speech-processing concepts, so explain everything step by step .
+
+Current Project State:
+We have one OK.ru video URL.
+The previous stage of the pipeline has already been decided:
+We will be using yt-dlp for video/audio acquisition. Do not revisit or redesign the downloading stage unless it is necessary for the current task.
+The video and its extracted audio are now available locally.
+
+Current Objective
+The next step is to process the local audio and generate a transcript/subtitles from the audio content.
+What is the difference between a transcript and subtitles?
+The target pipeline is: Local Audio -> Pretrained Speech-to-Text Model -> Transcript -> subtitles with timestamps
+I would preferably like to use a pretrained model from Hugging Face rather than training a model from scratch.
+Investigate suitable pretrained Hugging Face models for this task that can produce reliable timestamps so that the transcript can subsequently be converted into subtitles.
+
+-----
+PROMPT 3: Act as an experienced Machine Learning, Speech Processing, and Computer Vision Engineer.
+I am a beginner, so explain every concept step by step and do not assume advanced knowledge.
+ 
+Current Project State:
+We have one OK.ru video URL.
+The video acquisition stage is already decided: OK.ru URL -> yt-dlp -> locally stored video -> audio
+Do not revisit or redesign the video-download stage.
+ 
+Current Objective:
+	1.We will now use Whisper only for the speech-to-text stage.
+	2.The goal is: Local Audio - Whisper - Timestamped transcript/subtitles - Match target text - Identify 	relevant timestamp - Process video frames at that timestamp
+	3.We will accept Whisper's timestamp accuracy for this pipeline and determine whether it is sufficient for 	our use case.
+	4.Explain how to use a suitable pretrained Whisper model, preferably through Hugging Face Transformers, to 	process the locally stored audio.
+	5.The output we need is text + corresponding timestamps
+	6.After Whisper generates the timestamped transcript, I will have a specific text/description from my problem 	statement that I want to locate inside the video. Explain how we can determine which transcript segment is 	semantically related to the target text and how is embedding performed.
+	7.Use the timestamp to process the video- Only after the relevant timestamp has been identified, we will move 	to the video. explain how the timestamp can be used to locate the corresponding portion of the locally stored 	video.
+ 
+explain:
+	1.Which Whisper model you recommend and why
+	2.How Whisper generates timestamps
+	3.Which timestamp type is more useful for our next step the starting or ending(I prefer the ending)
+	4.How to store the timestamped transcript programmatically so that we can search it later
+ 
+ 
+Do NOT yet design the complete computer-vision processing pipeline.
+
+-----
+PROMPT 4: I have one OK.ru video URL and want to test video extraction using yt-dlp.
+Give me the most optimal and minimal Python code to:
+
+1. Take the OK.ru URL as input.
+2. Download the video using the yt-dlp Python API.
+3. Save it locally in a videos/ folder.
+4. Prefer the best available quality.
+5. Print the download status and saved file path.
+6. Handle download errors clearly.
+
+Give me only the required code and a very brief explanation considering I already have cloned the a public repo that is empty name Quest1 and using vs code also comment the code with respective explanation.
+
+----
+PROMPT 5: successfully extracted the video now we will similarly extract the audio file from OK.ru URL and maintain the code structure exactly the same with relevant comments explaining it. Generate minimal and optimal code for extraction of audio file. 
+
+----
+PROMPT 6: We have successfully extracted and stored the video and audio locally using yt-dlp.
+
+Before proceeding with transcript extraction, provide a detailed analysis of OpenAI Whisper and its different model variants so we can choose the most optimal model for this project.
+
+Explain:
+
+1. What Whisper is and how Automatic Speech Recognition works at a high level.
+2. How Whisper converts audio into text.
+3. How Whisper generates timestamps.
+4. The difference between transcript text, segment-level timestamps, and word-level timestamps.
+
+
+Compare the available Whisper model by creating branches in github and applying different models in different branches and Compare them based on: Accuracy, Transcription speed, Model size/resource requirements, CPU vs GPU performance, language support, timestamp support, Suitability for long audio, Ease of integration with Hugging Face Transformers
+
+Then recommend a small number of branches to actually test on our extracted audio. For example: For each branch, provide minimal code to transcribe the same local audio and return timestamps. Then explain how we should compare the outputs based on: Transcript quality, Timestamp quality, Processing time, Hardware usage
+
+Finally, recommend the single most optimal Whisper model for the project.
+
+Important context: our goal is not just transcription. We need the transcript timestamps to later match text from the problem statement, identify the relevant time interval in the video, and then process frames only from that relevant timestamp range.
+
+Therefore, prioritize a model that provides sufficiently reliable transcription and timestamps without unnecessary computational cost.
+
+Use Hugging Face Transformers where possible instead of training a model from scratch. Verify model capabilities using current official documentation before making the final recommendation. Do not move on to video-frame processing yet.
+
+provide the minimal and optimal codes with comments explain the codes structure and flow and list the necessary libraries/packages such as pytorch, hugging face and all that needs to be downloaded before running the code.
+
+----
+PROMPT 7:We have already extracted the video and audio using `yt-dlp`. We will now test Whisper `large-v3-turbo` and other suitable pretrained models in separate Git branches.
+I will use Google Colab with GPU because CPU inference may take too long.
+Guide me step by step:
+
+1. Recommend 2–3 meaningful models to compare, including `openai/whisper-large-v3-turbo`, and explain why.
+2. Tell me exactly which Git branch to create first, followed by the next branches.
+3. For each branch, explain what code/model should change while keeping the same audio and evaluation setup.(should i upload the audio file to the google drive )
+4. Show how to set up Google Colab, enable/check GPU, verify CUDA, and use the GPU for Hugging Face inference.
+5. Explain how to run the code from each Git branch in Colab and save the results.
+6. Explain how to compare the results fairly and select the best model for our project.
+7. After testing, explain which branch/model should be merged back into `main` and how to commit it.
+
+-----
+PROMPT 8:Now the next objective is to match the input text provided in the problem statement with the generated Whisper transcript and find the first relevant occurrence/inference and its corresponding timestamp.
+I previously worked on a RAG project where I used BM25 for lexical search. Analyze whether BM25 would also be useful for this task.
+Specifically:
+
+1. Explain whether BM25 is suitable for matching the input text against Whisper transcript segments.
+2. Recommend the most suitable approach for finding the first relevant matching transcript segment.
+3. Explain how transcript timestamps should be stored and connected to each transcript segment.
+4. Once a match is found, show how to retrieve its start and end timestamp.
+5. Provide a practical step-by-step implementation plan and code.
+
+-----
+PROMPT 9: We have successfully identified the **timestamp range of the transcript segment** that matches the input query.
+
+Now I want to find the **exact timestamp when the query first starts**.
+
+For example, the query is:
+
+**"My mind rebels at stagnation"**
+
+We already know the larger transcript segment where this phrase occurs, but the word **"my" may appear multiple times within that segment**.
+
+Analyze how we can reliably determine that the correct occurrence is:
+
+**My → mind → rebels → at → stagnation**
+
+in the correct sequential order, rather than simply finding the first occurrence of `"my"`.
+
+Explain and implement a method that:
+
+1. Takes the matched transcript segment and its **word-level timestamps**.
+2. Matches the query against the transcript words **in sequence**.
+3. Ensures that the matched words occur in the **correct order**.
+4. Identifies the **first complete occurrence of the query phrase**.
+5. Returns the timestamp of the **first matched word** and the timestamp of the **last matched word**.
+6. Handles cases where the query is split across Whisper segments.
+
+Also compare whether **exact sequential matching, normalized matching, fuzzy matching, or BM25** is most appropriate for this specific step.
+
+-----
+PROMPT 10: We have successfully identified the exact timestamp range corresponding to the query.
+
+
+
+The remaining task is to extract the video frames within this timestamp range.
+
+Explain briefly:
+
+
+
+How to seek to the start timestamp.
+
+How to extract frames only until the end timestamp.
+
+How to control the frame sampling rate (FPS).
+
+How to avoid processing unnecessary frames outside the range.
+
+How to save the extracted frames locally.
+
+How to verify that the correct frames were extracted.
+
+
+
+Prefer OpenCV or another appropriate Python tool. Keep the implementation efficient and avoid extracting the entire video when only a small timestamp range is required.
+
+
+
+Do not perform any further image analysis yet. Focus only on extracting frames from the identified timestamp range.
+
+----
+PROMPT 11: The next task is to select and output **one appropriate representative frame** from that dialog.
+
+My proposed approach is:
+
+Start Timestamp + End Timestamp = Calculate Midpoint = Extract Frame at Midpoint
+
+Analyze whether this is the safest and most optimal approach.
+
+Specifically:
+
+1. Explain whether selecting the midpoint frame is reliable for representing the dialog.
+2. Recommend a simple and robust strategy for selecting the best frame without unnecessarily processing the entire video.
+3. If midpoint extraction alone is sufficient for our use case, provide minimal code to:
+   - Calculate the midpoint timestamp
+   - Extract the corresponding frame
+   - Save it locally
+4. Explain how to verify that the extracted frame actually corresponds to the correct dialog/timestamp range.
+5. If the midpoint frame is poor, suggest a lightweight fallback strategy, such as checking a small number of nearby frames and selecting the clearest one.
+
+-----
+PROMPT 12: add appropriate README.md based on the architecture
